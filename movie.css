@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color:gray;
+}
+.container{
+    background-color: antiquewhite;
+    padding:20px;
+    border-radius:10px;
+    width:700px;
+    text-align:center;
+}
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+button{
+    padding:10px 20px;
+    background-color:orange;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+button:hover{
+    background-color:green;
+}
+img{
+    margin-top:15px;
+    width:200px;
+}
+#movieResult{
+    margin-top:20px;
+}
